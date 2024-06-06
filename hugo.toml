@@ -1,3 +1,28 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://pitlst.github.io/"
+languageCode = "zh-cn"
+title = "MeiK's blog"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "pitlst"
+  description = "In solitude, where we are least alone."
+  github = "pitlst"
+  email = "sunmoming@gmail.com"
+  url = "https://pitlst.github.io/"
+  keywords = "blog, google analytics"
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/github.png"
+  avatar = "/images/avatar.jpg"
+  headerIcon = "/images/GitHub-Mark-Light-32px.png"
+  location = "China"
+
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-123456-789"
