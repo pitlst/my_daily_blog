@@ -1,6 +1,6 @@
 baseURL = "https://pitlst.github.io/"
 languageCode = "zh-cn"
-title = "MeiK's blog"
+title = "pitlst's blog"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -16,7 +16,7 @@ pygmentsUseClasses = true
   userStatusEmoji = "😀"
   favicon = "/images/github.png"
   avatar = "/images/avatar.jpg"
-  headerIcon = "/images/GitHub-Mark-Light-32px.png"
+  headerIcon = "/images/github-mark-white.png"
   location = "China"
 
 
